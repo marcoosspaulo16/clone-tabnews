@@ -1,4 +1,4 @@
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 process.on("uncaughtException", function (err) {
   console.log(err);
