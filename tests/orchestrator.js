@@ -6,7 +6,6 @@ async function waitForAllServices() {
   async function waitForWebServer() {
     return retry(fetchStatusPage, {
       retries: 100,
- fix-npm-test
       maxTimeout: 1000,
     });
 
@@ -17,7 +16,7 @@ async function waitForAllServices() {
       if (response.status !== 200) {
         throw Error();
       }
- main
+      main;
     }
   }
 }
