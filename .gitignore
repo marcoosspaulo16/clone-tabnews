@@ -1,3 +1,5 @@
+# Desconsiderar arquivos do Next.js
 .next/
+# Desconsiderar dependências
 node_modules/
 
